@@ -38,7 +38,7 @@
                                     <navigationItem title="Learning CoreData" id="4OG-5p-w9E">
                                         <barButtonItem key="rightBarButtonItem" title="Agregar" id="19g-4k-oa4">
                                             <connections>
-                                                <action selector="addAction:" destination="BYZ-38-t0r" id="K2V-4l-G0K"/>
+                                                <action selector="buttonAction:" destination="BYZ-38-t0r" id="j7D-TF-Jve"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
@@ -50,6 +50,7 @@
                     </view>
                     <connections>
                         <outlet property="addButton" destination="19g-4k-oa4" id="XMe-lp-As3"/>
+                        <outlet property="navBar" destination="2eJ-7R-UaG" id="70J-1Z-P9G"/>
                         <outlet property="navigationBar" destination="2eJ-7R-UaG" id="Tfe-qG-rEj"/>
                         <outlet property="tableView" destination="ko2-Ym-jxl" id="rsL-SF-c0x"/>
                     </connections>
