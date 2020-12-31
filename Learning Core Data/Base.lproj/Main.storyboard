@@ -50,7 +50,6 @@
                     </view>
                     <connections>
                         <outlet property="addButton" destination="19g-4k-oa4" id="XMe-lp-As3"/>
-                        <outlet property="navBar" destination="2eJ-7R-UaG" id="70J-1Z-P9G"/>
                         <outlet property="navigationBar" destination="2eJ-7R-UaG" id="Tfe-qG-rEj"/>
                         <outlet property="tableView" destination="ko2-Ym-jxl" id="rsL-SF-c0x"/>
                     </connections>
